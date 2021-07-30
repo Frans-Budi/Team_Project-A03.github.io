@@ -1,0 +1,134 @@
+/*------------ Untuk Smart-Phone ----------*/
+
+@media (max-width: 600px) {
+    .Judul-Top-Wrapper{
+        font-size: 100px;
+    }
+  
+    .Top-Wrapper .container p {
+        font-size: 16pt;
+        margin-bottom: 80px;
+    }
+  
+    .btn {
+        margin: 0 auto;
+    }
+  
+    .btn-wrapper{
+        flex-direction: column;
+    }
+  
+    .media-sosial{
+        bottom: 20px;
+  
+    }
+  
+  }
+  
+  
+  /*------------ Untuk Tablet --------------*/
+  
+  @media (max-width: 1024px) {
+
+  
+    /*-------- Header ---------*/
+    header{
+        height: 80px;
+    }
+  
+    header .container img{
+        width:159px;
+        margin-top: 9px;
+        height: 65px;
+    }
+  
+    .list{
+        display: none;
+    }
+  
+    .fa-bars{
+        display: block;
+        font-size: 50px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-top: 14px;
+    }
+  
+    .fa-bars:hover{
+        color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+    }
+  
+    /*-------- Top-Wrapper ---------*/
+  
+    .Top-Wrapper .container h1 {
+        font-size: 40pt;
+    }
+  
+    .Top-Wrapper .container p {
+        font-size: 16pt;
+        margin-bottom: 80px;
+    }
+  
+    .btn {
+        padding: 14px 28px;
+        border-radius: 8px;
+    }
+  
+    /*-------- Footer ---------*/
+  
+    footer{
+        height: 180px;
+    }
+  
+    .logo-ET{
+        width: 174px;
+        height: 72px;
+        margin-top: 20px;
+    }
+  
+    .media img{
+        width: 45px;
+        height: 45px; 
+    }
+    
+    .media1 img{
+        width: 56px;
+        height: 37px;
+    }
+  
+    .media-sosial{
+        bottom: 20px;
+        left: 28%;
+  
+    }
+  
+    footer .container{
+        margin: 0 auto;
+        text-align: center;
+    }
+  }
+  
+  /*------------ Untuk Penyesuaian (Header) --------------*/
+  
+  @media (max-width: 1350px){
+    .list{
+        display: none;
+    }
+  
+    .fa-bars{
+        display: block;
+        font-size: 50px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-top: 14px;
+    }
+  
+    .fa-bars:hover{
+        color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+    }
+  }
+    
+
+
+
+
